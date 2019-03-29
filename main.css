@@ -1,3 +1,21 @@
 main {
     background-color: yellow;
 }
+
+#heading-home{
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 600px){
+    .front-image{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .front-image{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
