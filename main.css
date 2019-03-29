@@ -6,14 +6,15 @@ main {
     font-size: 20px;
 }
 
-@media screen and (min-width: 300px){
+@media screen and (min-width: 540px){
     .image-home{
         margin-top: 30px;
     }
 }
 
-@media screen and (max-width: 300px){
-    .image-home{
+@media screen and (max-width: 540px) {
+    .image-home {
         padding-left: 0;
         padding-right: 0;
     }
+}
